@@ -7,6 +7,26 @@ with `Parallel.ForEach()` method.
 threads parallelly but we can specify the max number of parallel threads
 in that.
 
+One of the overload of `Parallel.ForEach()`
+
+``` csharp
+public static ParallelLoopResult ForEach<TSource>(
+    IEnumerable<TSource> source, ParallelOptions parallelOptions, Action<TSource> body);
+```
+
+Usage
+
+``` csharp
+Parallel.ForEach(
+    students,
+    new ParallelOptions() { MaxDegreeOfParallelism = 2 },
+    student =>
+    {
+        Console.WriteLine($"Id: {student.Id}, Name: {student.FirstName} {student.LastName}");
+        Thread.Sleep(2000);
+    });
+```
+
 ## Output
 
 ```
