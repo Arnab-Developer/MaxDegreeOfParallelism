@@ -30,4 +30,5 @@ catch
 {
     maxDegreeOfParallelism = 1;
 }
+Console.WriteLine();
 printStudentService.PrintMultiThreadWithMaxDegreeOfParallelism(students, maxDegreeOfParallelism);
