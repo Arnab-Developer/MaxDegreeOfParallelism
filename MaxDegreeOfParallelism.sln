@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxDegreeOfParallelism", "MaxDegreeOfParallelism\MaxDegreeOfParallelism.csproj", "{727D8319-BE71-40C7-ABC2-8135EB952D5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxDegreeOfParallelism", "MaxDegreeOfParallelism\MaxDegreeOfParallelism.csproj", "{727D8319-BE71-40C7-ABC2-8135EB952D5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98772499-AD18-4984-9964-A44B1681E943}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
