@@ -20,7 +20,7 @@ IPrintStudentService printStudentService = new PrintStudentService();
 printStudentService.PrintSingleThread(students);
 printStudentService.PrintMultiThread(students);
 
-Console.Write("Provide max degree df parallelism value: ");
+Console.Write("Provide max degree of parallelism value: ");
 int maxDegreeOfParallelism;
 try
 {
